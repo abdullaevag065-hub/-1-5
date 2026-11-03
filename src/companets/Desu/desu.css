@@ -1,0 +1,156 @@
+.version-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+.main-edu-img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 25px 35px rgba(0, 0, 0, 0.08));
+}
+.edu-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background-color: #f7f7f7; 
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333333;
+}
+
+.edu-versions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    border-top: 1px solid #dcdcdc;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.version-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.version-preview {
+    width: 90px;
+    height: 70px;
+    background-color: #eaeaea;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.version-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.version-num {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 4px;
+}
+
+.version-text {
+    font-size: 13px;
+    color: #888888;
+    max-width: 130px;
+    line-height: 1.3;
+}
+
+.edu-main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.edu-image-container {
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-scan-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(0 25px 35px rgba(0, 0, 0, 0.12));
+}
+
+.box-scan-top {
+    width: 170px;
+    height: 100px;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.box-scan-middle {
+    display: flex;
+}
+
+.box-scan-center {
+    width: 170px;
+    height: 220px;
+    background-color: #ffffff;
+}
+
+.box-scan-side {
+    width: 130px;
+    height: 220px;
+    background-color: #ffffff;
+}
+
+.side-left {
+    border-right: 1px solid #f0f0f0;
+}
+
+.side-right {
+    border-left: 1px solid #f0f0f0;
+}
+
+.box-scan-bottom {
+    width: 170px;
+    height: 80px;
+    background-color: #ffffff;
+    border-top: 1px solid #f0f0f0;
+}
+
+
+.edu-text-container {
+    flex: 1;
+    max-width: 460px;
+}
+
+.edu-text-container h2 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 35px;
+    color: #2c2c2c;
+    letter-spacing: -0.5px;
+}
+
+.edu-description p {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #8a8a8a;
+    margin-bottom: 25px;
+}
+
+.edu-description p:last-child {
+    margin-bottom: 0;
+}
+
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
